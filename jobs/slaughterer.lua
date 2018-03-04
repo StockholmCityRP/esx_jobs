@@ -52,7 +52,7 @@ Config.Jobs.slaughterer = {
       Size  = {x = 3.0, y = 3.0, z = 1.0},
       Color = {r = 204, g = 204, b = 0},
       Marker= 1,
-      Blip  = false,
+      Blip  = true,
       Name  = _U('s_slaughtered'),
       Type  = "work",
       Item  = {
@@ -76,7 +76,7 @@ Config.Jobs.slaughterer = {
       Size  = {x = 3.0, y = 3.0, z = 1.0},
       Color = {r = 204, g = 204, b = 0},
       Marker= 1,
-      Blip  = false,
+      Blip  = true,
       Name  = _U('s_package'),
       Type  = "work",
       Item  = {
