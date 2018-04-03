@@ -8,7 +8,7 @@ Config.Jobs.reporter = {
       Spawner = 1,
       Hash = "rumpo",
       Trailer = "none",
-      HasCaution = true
+      HasCaution = false
     }
   },
   Zones = {
