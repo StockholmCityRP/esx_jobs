@@ -8,12 +8,12 @@ Config.Jobs.reporter = {
       Spawner = 1,
       Hash = "rumpo",
       Trailer = "none",
-      HasCaution = true
+      HasCaution = false
     }
   },
   Zones = {
     VehicleSpawner = {
-      Pos   = { x = -141.41, y = -620.80, z = 167.82 },
+      Pos   = { x = -556.95, y = -924.79, z = 23.86 },
       Size  = {x = 2.0, y = 2.0, z = 0.2},
       Color = {r = 204, g = 204, b = 0},
       Marker= 1,
@@ -22,11 +22,11 @@ Config.Jobs.reporter = {
       Type  = "vehspawner",
       Spawner = 1,
       Hint  = _U('reporter_garage'),
-      Caution = 2000
+      Caution = 0
     },
 
     VehicleSpawnPoint = {
-      Pos   = { x = -149.32023620605, y = -592.17163085938, z = 31.42448425293 },
+      Pos   = { x = -549.06, y = -900.93, z = 23.99 },
       Size  = {x = 3.0, y = 3.0, z = 1.0},
       Marker= -1,
       Blip  = false,
@@ -37,7 +37,7 @@ Config.Jobs.reporter = {
     },
 
     VehicleDeletePoint = {
-      Pos   = { x = -144.2229309082,  y = -577.02972412109, z = 31.42448425293 },
+      Pos   = { x = -532.36,  y = -889.37, z = 24.87 },
       Size  = {x = 5.0, y = 5.0, z = 0.2},
       Color = {r = 255, g = 0, b = 0},
       Marker= 1,
@@ -46,9 +46,9 @@ Config.Jobs.reporter = {
       Type  = "vehdelete",
       Hint  = _U('return_vh_button'),
       Spawner = 1,
-      Caution = 2000,
+      Caution = 0,
       GPS = 0,
-      Teleport = { x = -139.09838867188, y = -620.74865722656, z = 167.82052612305 }
+      --Teleport = { x = -139.09838867188, y = -620.74865722656, z = 167.82052612305 }
     }
   }
 }
